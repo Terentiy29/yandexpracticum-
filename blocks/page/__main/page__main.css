@@ -1,0 +1,16 @@
+.page__main {
+  grid-area: main;
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1023px) {
+  .page__main {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page__main {
+    margin-bottom: 64px;
+  }
+}

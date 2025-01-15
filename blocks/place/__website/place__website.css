@@ -1,0 +1,9 @@
+.place__webstie {
+  align-self: end;
+}
+
+@media screen and (max-width: 767px) {
+  .place__webstie {
+    grid-area: website;
+  }
+}

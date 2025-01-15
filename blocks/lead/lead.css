@@ -1,0 +1,13 @@
+.lead {
+  grid-area: lead;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  row-gap: 32px;
+}
+
+@media screen and (max-width: 767px) {
+  .lead {
+    row-gap: 16px;
+  }
+}
